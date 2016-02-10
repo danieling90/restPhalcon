@@ -5,7 +5,7 @@ use Phalcon\Mvc\Model\Message;
 use Phalcon\Mvc\Model\Validator\Uniqueness;
 use Phalcon\Mvc\Model\Validator\InclusionIn;
 
-class Robots extends \Phalcon\Mvc\Model
+class Robots extends Model
 {
     public function validation()
     {
